@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import { } from 'antd-mobile';
-import logo from '../assets/svg/logo.svg';
 
-class Login extends Component {
+class Register extends Component {
   constructor(){
     super()
     this.state={
@@ -19,8 +17,7 @@ class Login extends Component {
 
   render() {
     return (
-      <header className="login App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="register App-header">
         <div className="Q_list">
           <div className="Q_list_left">
             账号:
@@ -37,11 +34,11 @@ class Login extends Component {
             <input type="password" className="Q_list_right_input" onChange={(value) => this.userNameChange(value)} placeholder="请输入密码"/>
           </div>
         </div>
-        <button className="login_button">登录</button>
+        <button className="login_button">注册</button>
         <div className="App-link"></div>
       </header>
     );
   }
 }
 
-export default Login;
+export default Register;

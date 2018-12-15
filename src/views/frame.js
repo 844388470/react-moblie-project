@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Route,Switch,Redirect } from 'react-router-dom'
-import Login from '../views/login'
+import Login from '../views/login/login'
 class Frame extends Component {
   render() {
     return (

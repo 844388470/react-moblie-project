@@ -1,6 +1,11 @@
+$color_blue:rgba(41,147,249,1);
 *{
     margin: 0;
     padding: 0;
+}
+a{
+    text-decoration:none;
+    color:$color_blue;
 }
 .tc {
     text-align: center

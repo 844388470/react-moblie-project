@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {store} from './redux';
 import Route from './route';
+import './assets/scss/base.scss';
 import './assets/scss/index.scss';
 import 'antd-mobile/dist/antd-mobile.css';
 import * as serviceWorker from './serviceWorker';
